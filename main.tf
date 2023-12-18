@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
     region = var.provider_region
-    access_key = "AKIAR22IPVNIQCIWZM2M"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 }
 
 module "network" {
