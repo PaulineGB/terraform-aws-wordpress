@@ -15,20 +15,16 @@ provider "aws" {
 
 module "network" {
     source = "./network"
-    namespace = var.namespace
 }
 
 module "storage" {
     source = "./storage"
-    namespace = var.namespace
 }
 
 module "security" {
     source = "./security"
-    namespace = var.namespace
 }
 
 module "ec2" {
     source = "./ec2"
-    namespace = var.namespace
 }
