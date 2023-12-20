@@ -1,9 +1,17 @@
+variable "db_username" {
+    type        = string
+    sensitive   = true
+}
+
+variable "db_password" {
+    type        = string
+    sensitive   = true
+}
+
 variable "az_a" {
-    description = "Availability zone a"
-    default     = "eu-west-3a"
+    type        = string
 }
 
 variable "az_b" {
-    description = "Availability zone b"
-    default     = "eu-west-3b"
+    type        = string
 }

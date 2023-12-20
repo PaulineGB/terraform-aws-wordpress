@@ -24,11 +24,9 @@ variable "cidr_app_subnet_b" {
 }
 
 variable "az_a" {
-    description = "Availability zone a"
-    default     = "eu-west-3a"
+    type        = string
 }
 
 variable "az_b" {
-    description = "Availability zone b"
-    default     = "eu-west-3b"
+    type        = string
 }
